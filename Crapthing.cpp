@@ -8,7 +8,9 @@
  		{
  			szstring[i] = '@';
  		}
+ 	}	
+ 	for (int b = 0; b < 17; b++)
+ 	{
+ 		std::cout << szstring[b] << std::endl;
  	}
-
- 	std::cout << szstring << std::endl;
- }
+}
