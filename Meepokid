@@ -13,7 +13,20 @@
  		    if( node == 1 ) {
  		    szstring[i] = 'a';
  		    }
- 		
+ 		    
+ 		    else if ( node == 2) {
+ 		   szstring[i] = 'e';
+ 		   }
+ 		    
+ 		    else if ( node == 3) {
+ 		    szstring[i] = 'u'; 
+ 		    }
+ 		    
+ 		    else if ( node == 4) {
+ 		    szstring[i] = 'o'; }
+ 		    
+ 		    else if ( node == 5) {
+ 		    szstring[i] = 'i';}
  		}
  	}	
  	for (int b = 0; b < 17; b++)
