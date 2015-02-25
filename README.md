@@ -22,27 +22,46 @@ Sorry, I do not work on OSX. Try using wine or some kind of vitural machine.
 **Future plans**
 
 In the future, I have many features that are planned to come. Here is the list
+
 A full standalone .exe
+
 A checkbox feature(Click the box how many it applies)
+
 	check the options like #’s or with symbols
+	
 	Spaces
+	
 	Capitals
+	
 	Output to console,command line(like cmd) or to a .txt file
+	
 	# of Capitals
+	
 A timer to show how long it took you to crack
+
 A test feature where you enter a password to see how long it would take to crack it and how strong the password is.
+
 Maybe maybe it can be use be used for actual brute forcing on websites.
+
 Custom skins
+
 It will also have options for quick modes aka charset switchs.
 	Charset switches like,
 
 1-only numbers (10 characters)
+
 2-only lowercase characters (26 characters)
+
 3-only uppercase characters (26 characters)
+
 4-numbers and lowercase characters (36 characters)
+
 5-numbers and uppercase characters (36 characters)
+
 6-uppercase and lowercase characters (52 characters)
+
 7-numbers, uppercase and lowercase characters (62 characters)
+
 You can turn off or on this mode.
 
 License
