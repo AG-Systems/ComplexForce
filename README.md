@@ -1,12 +1,12 @@
-ComplexForce
+**ComplexForce**
 ComplexForce is a program that I had planned for a long time now. Expect many changes
 
 Started working on it: Jan 27 2015
-Description
+**Description**
 
 The program will try to brute force using advanced algorithms. It will have many features and lots of options for cracking passwords.
 
-Platforms
+**Platforms**
 
 Windows
 
@@ -18,7 +18,7 @@ OSX
 Sorry, I do not work on OSX. Try using wine or some kind of vitural machine.
 
 
-Future plans
+**Future plans**
 
 In the future, I have many features that are planned to come. Here is the list
 A full standalone .exe
