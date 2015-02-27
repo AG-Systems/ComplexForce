@@ -1,8 +1,13 @@
 #include <iostream>
 
-int main() {
-std::cout << What method do you want to use to brute force? << std::endl;
+int tron;
+int node;
+int genNum
 
+int main() {
+int brute;
+std::cout << What method do you want to use to brute force? << std::endl;
+std::cin >> brute >> std::endl;
 }
 
 enum Methods {
