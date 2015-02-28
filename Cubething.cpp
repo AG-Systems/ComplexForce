@@ -1,42 +1,47 @@
-#include <iostream>
+ #include <iostream>
 
-int tron;
-int node;
-int genNum
+enum Methods 
+{
+	NUMBERS,
+	ALPHA,
+	ALPHANUMERIC
+};
 
-int main() {
-int brute;
-std::cout << What method do you want to use to brute force? << std::endl;
-std::cin >> brute >> std::endl;
-}
+int main() 
+{
+	int tron;
+	int node;
+	int genNum;
+	int brute;
+	
+	std::cout << "What method do you want to use to brute force?" << std::endl;
+	std::cin >> brute;
+	
+	Methods method;
 
-enum Methods {
-NUMBERS,
-ALPHA,
-ALPHANUMBERIC,
-}
-  switch (if) {
-case 1:
-    1 = NUMBERS
-  break;
+  	switch (brute) 
+  	{
+	case 1:
+    	method = NUMBERS;
+  		break;
+  	case 2:
+    	method = ALPHA;
+  		break;
+  	case 3:
+    	method = ALPHANUMERIC;
+  		break;
+  	}
 
-case 2:
-    2 = ALPHA
-  break;
-
-case 3:
-    3 = APLHANUBERIC
-  break;
-}
-
-switch (Methods) {
-case NUMBERS:
-    std::cout << "123456789 password cracked" << endl;
-  break;
-case ALPHA:
-    std::cout << "meepo is hot passsword cracked" << endl;
-  break,
-case ALPHANUBERIC:
-    std::cout << "meepo is hot4 password cracked" <<endl;
-  break;
+	switch (method) 
+	{
+	case NUMBERS:
+		std::cout << "123456789 password cracked" << std::endl;
+	  	break;
+	case ALPHA:
+	    std::cout << "meepo is hot passsword cracked" << std::endl;
+	  	break;
+	case ALPHANUMERIC:
+	    std::cout << "meepo is hot4 password cracked" << std::endl;
+	  	break;
+	}
 }
