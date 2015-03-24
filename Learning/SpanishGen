@@ -10,6 +10,14 @@ int youf
 
 int main() 
           {
-  if (x = 'you')
-    
+  if (x = 'me')
+    std::cout << "Replace ar,er,and ir with: o " std::endl;
+    std::cout << "If you are trying to conjugate with present tense then replace with: e " std::endl;
+
+   else if (x = 'you')
+   	std::cout << "Replace ar,er,and ir with: as " std::endl;
+   std::cout << "If you are trying to conjugate with present tense then replace with: aste,este,or iste " std::endl;
+
+   else if (x = 'he')
+   	std::cout << ""
 }
