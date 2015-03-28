@@ -3,57 +3,20 @@
 
 std::string ambivalent = "ambivalent";
 
-int main()	{
-
-	for (int i = 0; i < ambivalent.length(); ++i)	{
-		std::cout << ambivalent << std::endl;
-		std::cout << ambivalent[i] << std::endl;
-
-
-
-
-		for (int i = 0; i < ambivalent.length(); ++i)
+int main() 
+{
+	for (int i = 0; i < ambivalent.length(); ++i) 
+	{
+		std::cout<< ambivalent[i] <<std::endl;
+	}
+	ambivalent.replace(9,2,"ce");
+	std::cout<< ambivalent << std::endl;
+		for (int i = 0; i < 20; ++i)
 		{
-			ambivalent.erase(7);
-			std::cout << ambivalent.append("cf") << std::endl;
+	char a = ambivalent[10];
+	a++;
+	ambivalent.replace(9,2,a);
+	
 
-
-			for (int i = 0; i < ambivalent.length(); ++i)
-			{
-				ambivalent.erase(7);
-				std::cout << ambivalent.append("cg") << std::endl;
-
-				for (int i = 0; i < ambivalent.length(); ++i)
-				{
-					ambivalent.erase(7);
-					std::cout << ambivalent.append("ch") << std::endl;
-
-					for (int i = 0; i < ambivalent.length(); ++i)
-					{
-						ambivalent.erase(7);
-						std::cout << ambivalent.append("cz") << std::endl;
-
-						for (int i = 0; i < ambivalent.length(); ++i)
-						{
-							ambivalent.erase(7);
-							std::cout << ambivalent.append("da") << std::endl;
-
-							for (int i = 0; i < ambivalent.length(); ++i)
-							{
-								ambivalent.erase(7);
-								std::cout << ambivalent.append("ea") << std::endl;
-								for (int i = 0; i < ambivalent.length(); ++i)
-								{
-									ambivalent.erase(7);
-									std::cout << ambivalent.append("zz") << std::endl;
-								}
-								system("PAUSE");
-							}
-						}
-
-					}
-				}
-			}
-		}
 	}
 }
