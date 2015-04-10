@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+ 
+std::string aaaa = "aaaa";
+ 
+ 
+int main()
+{
+	for (int i = 0; i < 500; i++)
+	{
+ 
+ 
+ 
+		//aaaa.clear();
+		char z = aaaa[4];
+		z++;
+ 
+		std::string str(1, z);
+ 
+		aaaa.replace(4, 1, str); 
+			if (z >= 97 & z <= 122)
+ 
+				std::cout << aaaa << std::endl;
+ 
+	}
+}
+
+/* Change the string to what you want and you can also change of what character gets changed by changing the value of replace. */
