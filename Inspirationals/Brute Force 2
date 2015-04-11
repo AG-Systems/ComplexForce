@@ -1,0 +1,48 @@
+#include <iostream>
+#include <string>
+
+
+
+const char AlphabetLower[26] =
+{
+	'a', 'b', 'c', 'd', 'e', 'f', 'g',
+	'h', 'i', 'j', 'k', 'l', 'm', 'n',
+	'o', 'p', 'q', 'r', 's', 't', 'u',
+	'v', 'w', 'x', 'y', 'z'
+};
+
+
+
+void Generate(unsigned int leng, std::string brute)
+{
+	if (leng == 0) 
+	{
+		std::cout << brute << std::endl;
+		return;
+	}
+
+	for (unsigned int i = 0; i < 26; i++) 
+	{
+
+		std::string appended = brute + AlphabetLower[i];
+		Generate(leng - 1, appended);
+	}
+}
+
+void Crack()
+{
+	while (1)
+	{
+		 
+		static unsigned int strL = 2;
+		Generate(strL, "");
+		strL++;
+	}
+}
+
+int main()
+{
+	
+	Crack();
+	return 0;
+}
