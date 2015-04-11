@@ -1,0 +1,53 @@
+#include <iostream>
+#include <string>
+#include<stdio.h>
+    #include <windows.h>
+    using namespace std;
+    char chars[]={'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+    string t;
+    int startchars[3];
+    bool start = true;
+    void checkPassword(string password);
+    void recurse(int width, int position, string baseString);
+    int main() {
+    cout << "Enter a string: " << endl;
+    cin >> t;
+    startchars[0] = 5;
+    startchars[1] = 10;
+    startchars[2] = 15;
+    int maxChars = 13;
+    for(int i=0;i<maxChars+1;i++) {
+    cout << "checking passwords width [" << i << "]..." << endl;
+    recurse(i,0,"");
+    }
+    return 0;
+    }
+    void recurse(int width, int position, string baseString) {
+    printf("Width: %d Position: %d String: %s\n",width,position,baseString.c_str());
+    for(int i=0;i<36;i++) {
+    if (position < width-1) {
+    printf("Recurse2 i: %d width: %d position: %d string: %s\n",i,width,position + 1,baseString.c_str());
+    if(start)
+    {
+    recurse(width, position + 1, baseString+chars[startchars[i]]);
+    if(i >= sizeof(startchars))
+    start = false;
+    }
+    else
+    {
+    recurse(width, position + 1, baseString+chars[i]);
+    }
+    }
+    printf("Width: %d Position: %d String: %s\n",width,position,baseString.c_str());
+    checkPassword(baseString+chars[i]);
+    Sleep(100);
+    }
+    }
+    void checkPassword(string password) {
+    cout << "trying " << password << endl;
+    if (password==t) {
+    cout << "match [" << password << "]" << endl;
+    system("Pause");
+    exit(1);
+    }
+    }
