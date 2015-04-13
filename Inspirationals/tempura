@@ -1,0 +1,74 @@
+#include <iostream>
+using namespace std;
+ 
+int main ()
+{
+
+   int a = 0;
+
+
+   while( a < 26 )
+   {
+       a++;
+       
+   }
+ 	if ( a = 1)
+ 		cout << "a" << endl;
+ 		if ( a = 2)
+ 			cout << "b" << endl;
+ 				if ( a = 3)
+ 			cout << "b" << endl;
+ 				if ( a = 4)
+ 			cout << "b" << endl;
+ 				if ( a = 5)
+ 			cout << "b" << endl;	
+ 			if ( a = 6)
+ 			cout << "b" << endl;
+ 			if ( a = 7)
+ 			cout << "b" << endl;
+ 			if ( a = 8)
+ 			cout << "b" << endl;
+ 			if ( a = 9)
+ 			cout << "b" << endl;
+ 			if ( a = 10)
+ 			cout << "b" << endl;
+ 			if ( a = 11)
+ 			cout << "b" << endl;
+ 			if ( a = 12)
+ 			cout << "b" << endl;
+ 			if ( a = 13)
+ 			cout << "b" << endl;
+ 			if ( a = 14)
+ 			cout << "b" << endl;
+ 			if ( a = 15)
+ 			cout << "b" << endl;
+ 			if ( a = 16)
+ 			cout << "b" << endl;
+ 			if ( a = 17)
+ 			cout << "b" << endl;
+ 			if ( a = 18)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			if ( a = 2)
+ 			cout << "b" << endl;
+ 			
+ 			
+   return 0;
+}
