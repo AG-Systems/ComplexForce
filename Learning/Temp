@@ -1,0 +1,53 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+std::string pass = "aaaa";
+
+/*const char AlphabetLower[26] =
+{
+	'a', 'b', 'c', 'd', 'e', 'f', 'g',
+	'h', 'i', 'j', 'k', 'l', 'm', 'n',
+	'o', 'p', 'q', 'r', 's', 't', 'u',
+	'v', 'w', 'x', 'y', 'z'
+};
+*/
+
+
+int main() 
+{
+	
+	std::cout << pass << std::endl;
+
+for (unsigned int i = 0; i < 26; i++)
+{
+		char z = pass[4];
+		z++;
+ 
+		std::string str(1, z);
+ 
+		
+			if (z >= 97 & z <= 122)
+ 				pass.replace(4, 1, str); 
+ 				std::cout << pass << std::endl;
+ 				
+ 					if (z >= 97 & z <= 122)
+ 						pass.replace(3, 1, str); 
+ 						std::cout << pass << std::endl;
+ 						
+ 							if (z >= 97 & z <= 122)
+ 								pass.replace(2, 1, str); 
+ 								// insert 
+ 								std::cout << pass << std::endl;
+ 									
+ 									if (z >= 97 & z <= 122)
+ 										pass.replace(1, 1, str);
+ 										std::cout << pass << std::endl;
+ 											
+ 											if (z >= 97 & z <= 122)
+ 												pass.replace(0, 1, str);
+ 												std::cout << pass << std::endl;
+ 										
+}
+
+}
