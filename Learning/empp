@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string>
+
+
+
+void gen()
+{
+	for (int i = 0; i < 26; i++)
+	{
+		// put an alg that goes a-z as the loop goes thou. ex: if i = 1 then you will get a
+		/*
+		char z = aaaa[4];
+		z++;
+		std::string str(1, z);
+	*/
+	}
+}
+
+
+void alg()
+{
+	// replaces the string with gen function
+	while()	
+
+	/*
+	aaaa.replace(4, 1, gen); 
+	aaaa.replace(3, 1, gen); 
+	aaaa.replace(2, 1, gen); 
+	aaaa.replace(1, 1, gen); 
+	aaaa.replace(0, 1, gen); 
+
+	*/
+
+	
+}
+
+
+int main()
+{
+	//outputs and does other stuff idk
+}
