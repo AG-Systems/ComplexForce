@@ -71,7 +71,7 @@ int alg()
 
 int main()
 {
-	std::cout << alg() << std::endl;
+	
 		system("PAUSE");
 }
 
