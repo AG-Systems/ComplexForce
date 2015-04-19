@@ -29,7 +29,7 @@ int v = 21;
 int w = 22;
 int x = 23;
 int y = 24;
-int z = 25;
+int z = 25
 
  int gen()
 {
