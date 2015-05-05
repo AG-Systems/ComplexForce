@@ -16,26 +16,29 @@ bool zScanner(const std::string& str, int i)
 
 int main()
 {
-	std::string str = "aaaaaaaa"
+	std::string str = "aaaaaaaa";
 	for (int i = 0; i < str.size(); i++)
 	{
-		if (!zScanner() || i != str.size()-1)
+		if (!zScanner(str, i) || i != str.size()-1)
 		{
 			continue;
 		}
-		str[i]++
+		str[i]++;
 
- 	for (int i = 0; i < 17;)
+ 	for ( i = 0; i < 17;)
  	{
  		char c = str[i];
  		if (c == 'z')
  		{
- 			szstring[i] = 'a';
+ 			str[i] = 'a';
  		}
  		
 		if (str[i] == 'z')
 		{
 			i = 0;
+		}
+		std::cout << str << std::endl;
+
 		}
 	}
 }
