@@ -17,6 +17,7 @@ bool zScanner(const std::string& str, int i)
 int main()
 {
 	std::string str = "aaaaaaaa";
+	std::cout << str << std::endl;
 
 	for (int i = 0; i < str.size(); i++)
 	{
@@ -25,12 +26,13 @@ int main()
 			str[i]++;
 			//for (int q = 0; q < 19; q++)
  			//{
- 				char c = str[q];
- 				if (c == 'z')
+ 				char c = str[z];
+ 				if (c == 'z' || c == '{')
  				{
  					std::cout << str << std::endl;
- 					str[q] = 'a';
- 					str[q]++;
+ 					
+ 					str[z] = 'a';
+ 					
  				}
 				/* if (str[i] == 'z')
 				{
