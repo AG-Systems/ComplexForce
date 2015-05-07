@@ -5,7 +5,7 @@ bool zScanner(const std::string& str, int i)
 {
 	for (int j = 0; j < str.size(); ++j)
 	{
-		if (str[j] != 'z')
+		if (str[j] != 'z') // if j = z then it will return false //
 		{
 			return false;
 		}
@@ -19,21 +19,21 @@ int main()
 	std::string str = "aaaaaaaa";
 	for (int i = 0; i < str.size(); i++)
 	{
-		if (!zScanner(str, i) || i != str.size()-1)
+		if (!zScanner(str, i) || i != str.size()-1) // if zscanner is false then it will go back into the loop. If the size does not equel to the string -1(Because in a string it adds a empty character to the end ) it will go back to the loop.
 		{
-			continue;
+			continue; // goes back to the loop
 		}
-		str[i]++;
+		str[i]++; // Adds to the value. Ex: a-z
 
- 	for ( i = 0; i < 17;)
+ 	for ( i = 0; i < 20;) // 
  	{
  		char c = str[i];
- 		if (c == 'z')
+ 		if (c == 'z') // if a character = z then it will reset to a 
  		{
- 			str[i] = 'a';
+ 			str[i] = 'a'; // resets it
  		}
  		
-		if (str[i] == 'z')
+		if (str[i] == 'z') // This resets the loop 
 		{
 			i = 0;
 		}
