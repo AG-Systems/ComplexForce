@@ -4,6 +4,9 @@ ComplexForce is a program that I had planned for a long time now. Expect many ch
 
 Started working on it: Jan 27 2015
 
+Project has never been finished as I lost motivation for this and I started working on other projects. I will come back and 
+finish it one day. I will update it do not worry ;)
+
 **Description**
 
 The program will try to brute force using advanced algorithms. It will have many features and lots of options for cracking passwords.
